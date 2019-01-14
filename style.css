@@ -1,0 +1,87 @@
+    
+.align{
+        text-align: left;
+        padding: 5px 5px 5px 5px;  
+    }
+
+/*.adjust{
+        justify-content: center;
+        color: #2bd28d;
+    }*/
+.border{
+        border-style: solid;
+        border-radius: 4px;
+        border-width: thick;
+        border-color: mediumpurple;
+        width: 200px;
+    }
+.form-cnt{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    margin-bottom: 65px;
+    width: 35%;
+}
+.reg-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+body{
+   background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bord{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 27%
+}
+footer{
+    text-align: center;
+}
+button{
+    
+}
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .form-cnt{
+    width: 85%;   
+}
+}
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .form-cnt{
+    width: 85%;
+}
+}
+@media only screen and (max-width: 992px) {
+    /* For desktop: */
+    .form-cnt{
+    width: 55;
+}
+}
+
+@media only screen and (max-width: 1400px) {
+    /* For desktop: */
+    .form-cnt{
+    width: 45%;
+}
+}
+@media only screen and (max-width: 400px) {
+    /* For desktop: */
+    .form-cnt{
+    width: 50%;
+}
+}
+
+
+
+
+
